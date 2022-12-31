@@ -136,6 +136,14 @@ img {
 /* section-hero */
 
 .section-hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: var(--color-primary);
   padding-top: 192px;
   padding-bottom: 192px;
@@ -242,7 +250,7 @@ img {
 }
 
 .work-title-list-img {
-  width: calc((100% - 48px) /3);
+  width: calc((100% - 48px) / 3);
 }
 
 /* section our team */
