@@ -13,6 +13,8 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--color-primary);
   background-color: var(--color-third);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 p,
@@ -141,8 +143,6 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-bg.jpg);
-  max-width: 1440px;
-  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -150,6 +150,7 @@ img {
   padding-top: 192px;
   padding-bottom: 192px;
 }
+
 .section-hero-title {
   font-weight: 500;
   font-size: 56px;
