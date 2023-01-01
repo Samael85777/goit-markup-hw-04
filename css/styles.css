@@ -173,7 +173,6 @@ img {
   cursor: pointer;
   width: 170px;
   height: 51px;
-
   border-radius: 4px;
   color: var(--color-third);
   background-color: var(--color-action);
@@ -308,6 +307,28 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-list {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--color-action);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* second page (Portfolio) */
@@ -382,9 +403,9 @@ img {
 
 .portfolio-box-card {
   padding: 32px 16px;
-  border-right: 0.5px solid #f4f4fd;
-  border-bottom: 0.5px solid #f4f4fd;
-  border-left: 0.5px solid #f4f4fd;
+  border-right: 0.5px solid var(--color-background-brand);
+  border-bottom: 0.5px solid var(--color-background-brand);
+  border-left: 0.5px solid var(--color-background-brand);
 }
 
 .portfolio-images-card-title {
