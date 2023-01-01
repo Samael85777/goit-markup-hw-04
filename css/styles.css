@@ -195,6 +195,31 @@ img {
   padding-bottom: 120px;
 }
 
+.container-advantages {
+  margin-bottom: 8px;
+}
+
+.container-advantages-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.container-advantages-list-item {
+  width: 264px;
+  height: 112px;
+}
+
+.container-advantages-list-link {
+  width: 100%;
+  height: 100%;
+  background: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .advantages-title {
   width: 1px;
   height: 1px;
@@ -484,6 +509,7 @@ img {
 .social-media-list {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 .media-list {
   width: 40px;
