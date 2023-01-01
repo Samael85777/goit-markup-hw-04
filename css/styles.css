@@ -356,6 +356,52 @@ img {
   justify-content: center;
 }
 
+/* section customers */
+
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+  background-color: var(--color-third);
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-background-section);
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-list-item {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-list-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+  border: 1px solid #404bbf;
+  background: #404bbf;
+}
+
 /* second page (Portfolio) */
 
 .portfolio-section {
