@@ -431,6 +431,10 @@ img {
   padding: 100px 0 100px 0;
 }
 
+.footer-container-all {
+  display: flex;
+}
+
 .footer-container {
   width: 264px;
 }
@@ -465,6 +469,7 @@ img {
 
 .social-media {
   width: 208px;
+  margin-left: 120px;
 }
 
 .social-media-title {
@@ -473,11 +478,28 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-third);
+  margin-bottom: 16px;
 }
 
 .social-media-list {
+  display: flex;
+  gap: 16px;
 }
 .media-list {
+  width: 40px;
+  height: 40px;
 }
 .media-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-link:hover,
+.media-link:focus {
+  background-color: #31d0aa;
 }
