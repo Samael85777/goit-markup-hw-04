@@ -36,18 +36,40 @@
               <li><a class="link-navigation" href="#">Contacts</a></li>
             </ul>
           </nav>
-          <ul class="navigation-contacts-list">
-            <li>
-              <a class="link-contacts" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li>
-              <a class="link-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
+          <div class="contacts">
+            <ul class="navigation-contacts-list">
+              <li class="contacts-list">
+                <a class="link-contacts" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="contacts-list-icon">
+                <a class="link-contacts-icon" href="tel:+110001111111">
+                  <svg class="contacts-icon" width="20" height="20">
+                    <use
+                      class="nav-contacts-icon"
+                      href="./images/icons.svg.svg#icon-phone"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts-list">
+                <a class="link-contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-list-icon">
+                <a class="link-contacts-icon" href="mailto:info@devstudio.com">
+                  <svg class="contacts-icon" width="20" height="20">
+                    <use
+                      class="nav-contacts-icon"
+                      href="./images/icons.svg.svg#icon-envelop"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -203,14 +225,49 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer-container">
-          <a class="footer-logo" href="/"
-            ><span class="web-footer-logo">web</span>studio</a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
+        <div class="footer-container-all">
+          <div class="footer-container">
+            <a class="footer-logo" href="/"
+              ><span class="web-footer-logo">web</span>studio</a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="social-media">
+            <h3 class="social-media-title">Social media</h3>
+            <ul class="social-media-list">
+              <li class="media-list">
+                <a href="#" class="media-link">
+                  <svg class="media-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="media-list">
+                <a href="#" class="media-link">
+                  <svg class="media-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="media-list">
+                <a href="#" class="media-link">
+                  <svg class="media-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="media-list">
+                <a href="#" class="media-link">
+                  <svg class="media-list-icon" width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

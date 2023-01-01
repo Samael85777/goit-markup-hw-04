@@ -117,7 +117,26 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  gap: 40px;
+  gap: 10px;
+  align-items: center;
+}
+
+.contacts-list-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.link-contacts-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  fill: var(--color-secondary);
+}
+
+.link-contacts-icon:hover,
+.link-contacts-icon:focus {
+  fill: var(--color-action);
 }
 
 .link-contacts {
@@ -382,7 +401,7 @@ img {
 }
 
 .customers-list-item {
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
@@ -394,12 +413,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #8e8f99;
 }
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-  border: 1px solid #404bbf;
-  background: #404bbf;
+  border-color: #404bbf;
+  fill: #404bbf;
 }
 
 /* second page (Portfolio) */
