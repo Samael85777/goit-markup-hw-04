@@ -375,6 +375,11 @@ img {
   justify-content: center;
 }
 
+.social-link:hover,
+.social-link:focus {
+  background-color: #404BBF;;
+}
+
 /* section customers */
 
 .customers {
