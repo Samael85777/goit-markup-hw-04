@@ -205,27 +205,6 @@ img {
   margin-bottom: 8px;
 }
 
-.container-advantages-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.container-advantages-list-item {
-  width: 264px;
-  height: 112px;
-}
-
-.container-advantages-list-link {
-  width: 100%;
-  height: 100%;
-  background: #f4f4fd;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .advantages-title {
   width: 1px;
   height: 1px;
@@ -242,6 +221,14 @@ img {
   display: flex;
   gap: 24px;
 }
+.container-advantages-list-item {
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .advantages-list-item {
   max-width: 264px;
@@ -252,6 +239,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-primary);
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -322,7 +310,7 @@ img {
 
 .team-list-box {
   display: block;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-list-card-title {
@@ -460,6 +448,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--color-third);
   background-color: var(--color-action);
+  border-color: var(--color-action);
 }
 
 .portfolio-images-list {
@@ -476,12 +465,13 @@ img {
   background-color: var(--color-third);
 }
 
-.portfolio-images-card:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
 .portfolio-img {
   text-decoration: none;
+  display: block;
+}
+
+.portfolio-img:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.5);
 }
 
 .portfolio-box-card {
