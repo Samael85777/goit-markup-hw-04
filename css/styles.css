@@ -117,8 +117,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  gap: 10px;
+  /* gap: 10px;
+  align-items: center; */
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 
 .contacts-list-icon {
@@ -135,21 +142,19 @@ img {
 }
 
 .link-contacts-icon:hover,
-.link-contacts-icon:focus {
+.link-contacts-icon:focus .link-contacts {
   fill: var(--color-action);
 }
+
+/* .link-contacts:hover,
+.link-contacts:focus {
+  color: var(--color-action);
+} */
 
 .link-contacts {
   color: var(--color-secondary);
   text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: block;
-}
-
-.link-contacts:hover,
-.link-contacts:focus {
-  color: var(--color-action);
 }
 
 /* Main */
@@ -377,7 +382,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #404BBF;;
+  background-color: #404bbf;
 }
 
 /* section customers */
